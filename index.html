@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>square roots trainer</title>
+    <script src="script1.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css"></head>
+<body>
+    <h1>square roots trainer</h1>
+
+    <div id="question" class="small_text main_message">hello!<br>
+        use your keyboard to type positive root<br>space to submit<br>
+        press any key to start</div>
+
+    <div id =  'cont'>
+        <textarea id="inp_area" class="number"  oninput="ansSub()"  onkeyup="checkInput(this)" autofocus></textarea>
+        <div id = 'timer' class="number">60</div>
+
+    </div>
+
+    <div id="time_bar"><br></div>
+
+    <p id="score" class="text"></p>
+    <p id="debug"></p>
+</body>
+</html>
