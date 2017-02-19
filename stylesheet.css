@@ -41,7 +41,7 @@ h1 {
 
 #inp_area{
     position: absolute;
-    font-family: 'bricks';
+    font-family: 'VT323', monospace;
     background-color: rgba(245,245,245,0.7);
     border: whitesmoke solid;
     padding: 2.2%;
